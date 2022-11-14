@@ -16,7 +16,7 @@
 ## Running Instructions
 
 Clone this repo
-- git clone 
+- git clone https://github.com/00aje00/CMU.git
 
 Enter the directory
 - cd CMU
@@ -28,7 +28,8 @@ Test the output of your api
 - curl localhost:8080
 
 ## Sample Output
-??                                                                 ??
+                                                                 
 {
   "message": "This is the main endpoint to the cheese rating API."
 }
+??
