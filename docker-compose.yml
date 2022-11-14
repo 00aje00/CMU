@@ -1,0 +1,30 @@
+version: "3"
+
+networks:
+  net:
+    driver: bridge
+
+services:
+  db:
+    container_name: mysql_db
+    build: ./database
+    networks:
+         - net
+    expose:
+         - 3306
+    restart: "on-failure"
+  
+  api:
+    container_name: flask_api
+    build: ./api
+    volumes: 
+         - ./api:/app:rw
+    ports:
+         - "8080:8080"
+    depends_on: 
+         - db
+    networks:
+         - net
+    restart: "on-failure"
+volumes:  
+  api:
