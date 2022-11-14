@@ -24,7 +24,7 @@ Enter the directory
 Run Compose to build the app
 - $ docker compose up -d --build
 
-Test the output of your api
+Test the output of your api response
 - $ curl localhost:8080
 - $ curl localhost:8080/cheese
 - $ curl localhost:8080/color
