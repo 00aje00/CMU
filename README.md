@@ -7,7 +7,7 @@
 
 **This illustrates the basics on how to dockerize a Flask MySQL application**
 
-# Prerequisites 
+## Prerequisites 
 
 - docker
 - docker compose
@@ -29,9 +29,16 @@ Test the output of your api response
 - $ curl localhost:8080/cheese
 - $ curl localhost:8080/color
 
-## Sample Output
-                                                                 
+## Sample Output 
+# (in the order of tests)                                                                 
+```                                                                 
 {
   "message": "This is the main endpoint to the cheese rating API."
 }
-
+```
+```
+(error ??)
+```
+```
+{ "color": "green" }
+```
