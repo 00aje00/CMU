@@ -16,22 +16,22 @@
 ## Running Instructions
 
 Clone this repo
-- git clone https://github.com/00aje00/CMU.git
+- $ git clone https://github.com/00aje00/CMU.git
 
 Enter the directory
-- cd CMU
+- $ cd CMU
 
 Run Compose to build the app
-- docker compose up -d
+- $ docker compose up -d --build
 
 Test the output of your api
-- curl localhost:8080
-- curl localhost:8080/cheese
-- curl localhost:8080/color
+- $ curl localhost:8080
+- $ curl localhost:8080/cheese
+- $ curl localhost:8080/color
 
 ## Sample Output
                                                                  
 {
   "message": "This is the main endpoint to the cheese rating API."
 }
-??
+
