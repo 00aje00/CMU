@@ -7,38 +7,40 @@
 
 **This illustrates the basics on how to dockerize a Flask MySQL application**
 
-## Prerequisites 
+# Prerequisites 
 
 - docker
 - docker compose
 - python3*
 
-## Running Instructions
+# Running Instructions
 
-Clone this repo
-- $ git clone https://github.com/00aje00/CMU.git
-
-Enter the directory
-- $ cd CMU
-
-Run Compose to build the app
-- $ docker compose up -d --build
-
-Test the output of your api response
-- $ curl localhost:8080
-- $ curl localhost:8080/cheese
-- $ curl localhost:8080/color
-
-## Sample Output 
-# (in the order of tests)                                                                 
-```                                                                 
+- Clone this repo
+```
+git clone https://github.com/00aje00/CMU.git
+```
+- Enter the directory
+```
+cd CMU
+```
+- Run Compose to build the app
+```
+docker compose up -d --build
+```
+- Test the output of your api response
+```bash
+curl localhost:8080
+curl localhost:8080/cheese
+curl localhost:8080/color
+```
+# Sample Output 
+### (in the order of tests)                                                                 
+                                                                 
 {
   "message": "This is the main endpoint to the cheese rating API."
 }
-```
-```
+
 (error ??)
-```
-```
+
 { "color": "green" }
-```
+
