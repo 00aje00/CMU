@@ -26,6 +26,8 @@ Run Compose to build the app
 
 Test the output of your api
 - curl localhost:8080
+- curl localhost:8080/cheese
+- curl localhost:8080/color
 
 ## Sample Output
                                                                  
