@@ -17,15 +17,18 @@
 
 Clone this repo
 - git clone 
+
 Enter the directory
 - cd CMU
+
 Run Compose to build the app
 - docker compose up -d
+
 Test the output of your api
 - curl localhost:8080
+
 ## Sample Output
-??
+??                                                                 ??
 {
   "message": "This is the main endpoint to the cheese rating API."
 }
-??
